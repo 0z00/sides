@@ -58,7 +58,7 @@ export default class Play extends Component {
           {
             /\p{Extended_Pictographic}/u.test(buttonMiddleTitle)
               ? <span style={{verticalAlign: "middle", fontSize: '1.05em'}}>{buttonMiddleTitle}</span>
-              : {buttonMiddleTitle}
+              : buttonMiddleTitle
           }
           </button>
           <button
